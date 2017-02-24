@@ -1,0 +1,20 @@
+{
+  "name": "spotify_search_seed",
+  "version": "1.0.0",
+  "description": "reactive",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    ,"dev" : "lite-server"
+  },
+  "dependencies": {
+    "rx":"^4.1.0",
+    "bootstrap":"^3",
+    "requirejs":"2.3.3"
+  },
+  "author": "akbar.pambudi",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.2.2"
+  }
+}

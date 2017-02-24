@@ -1,0 +1,42 @@
+<html>
+<head>
+    <title>Quickstart Seed</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="node_modules/requirejs/require.js" data-main="app"/>
+</head>
+<body>            
+             <div class="artist-search-wrapper">
+                    <div class="panel artist-search-panel">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Artists finder</h3>
+                    </div>
+                    <div class="panel-body">
+                         <div class="form-group">
+                            <label for="searchText">Search Artists</label>
+                            <input class="form-control" type="text" id="searchText">
+                        </div>
+                        <div id="contentWrapper" class='media'>
+                            
+                        </div>
+                    </div>
+                    </div>
+                        
+                </div>
+            
+        
+
+
+    <script>
+        require.config({
+            paths : {
+                "jquery":"https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min",
+                "rxJS":"node_modules/rx/dist/rx.all",
+                "itemBuilder":"app/item-builder",
+                "app":"app/app",
+               
+            }
+        });
+    </script>
+</body>
+</html>

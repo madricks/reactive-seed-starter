@@ -1,0 +1,25 @@
+        .artist-search-wrapper{
+            padding: 7px;
+            margin: 20px auto;
+            width: 40%;
+            
+        }
+
+       
+
+        .artist-search-panel>.panel-heading{
+            background: #1DC358;
+        }
+
+         .artist-search-panel>.panel-heading>.panel-title{
+            color: #fff;
+            font-weight: bold;
+        }
+        .artist-search-panel>.panel-body{
+            background: #fff;
+            border:solid 1px #1DC358;
+        }
+
+        .media .media-object{
+            max-width: 100px;
+        }
